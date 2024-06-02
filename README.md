@@ -1,4 +1,5 @@
 # cricinfo
+// html code 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -104,3 +105,97 @@
     </footer>
 </body>
 </html>
+
+
+// CSS code
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 0px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.teams {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.team {
+    text-align: center;
+}
+
+.team img {
+    width: 100px;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+.match-details {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.scorecard {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.scorecard .innings {
+    margin-bottom: 20px;
+}
+
+.scorecard table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.scorecard th, .scorecard td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.scorecard th {
+    background-color: #f2f2f2;
+}
+
+.player-of-the-match {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.player {
+    display: inline-block;
+    text-align: center;
+}
+
+.player img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
